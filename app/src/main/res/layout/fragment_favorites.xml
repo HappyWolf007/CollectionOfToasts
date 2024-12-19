@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/backgroundColor">
+
+    <!-- Поиск -->
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:queryHint="Поиск в избранном"
+
+        app:defaultQueryHint="Поиск в избранном"
+        app:iconifiedByDefault="false"
+        android:background="@drawable/rounded"
+        />
+
+    <!-- Кнопка "Назад" -->
+
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:text="Назад"
+        android:textColor="?attr/textAppearanceBody1"/>
+    <!-- Контейнер для избранного -->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/back_button"
+        android:layout_below="@id/search_view">
+
+        <LinearLayout
+            android:id="@+id/favorites_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+</RelativeLayout>

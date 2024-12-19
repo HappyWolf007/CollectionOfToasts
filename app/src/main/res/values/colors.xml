@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#8692f7</color>
+
+    <!-- Цвета для светлой темы -->
+    <color name="primary_light">#FFFFFF</color>
+    <color name="primary_dark_light">#CCCCCC</color>
+    <color name="accent_light">#FF4081</color>
+
+    <color name="primaryColor_light">#FFC107</color>
+    <color name="primaryDarkColor_light">#AE5833</color>
+    <color name="primaryDarkColor_light2">#F4C8A5</color>
+    <color name="accentColor_light">#5D2317</color>
+    <color name="navigationItemColor_light">#000000</color>
+    <color name="backgroundColor_light">#F8DAA7</color>
+
+    <!-- Цвета для тёмной темы -->
+    <color name="primary_dark">#121212</color> <!-- Основной цвет -->
+    <color name="primary_darker_dark">#1F1F1F</color> <!-- Более тёмный основной -->
+    <color name="accent_dark">#FF4081</color> <!-- Акцент -->
+    <color name="primaryColor_dark">#2A2A2A</color> <!-- Цвет верхней части -->
+    <color name="primaryDarkColor_dark">#3D3D3D</color> <!-- Тёмный вариант основного -->
+    <color name="primaryDarkColor_dark2">#5A5A5A</color> <!-- Более светлый серый -->
+    <color name="accentColor_dark">#FF5722</color> <!-- Акцентный цвет -->
+    <color name="navigationItemColor_dark">#E3E3E3</color> <!-- Цвет текста элементов навигации -->
+    <color name="backgroundColor_dark">#1C1C1C</color> <!-- Цвет фона -->
+    <color name="buttonBackgroundColor_dark">#303030</color> <!-- Цвет кнопок -->
+    <color name="buttonTextColor_dark">#FFFFFF</color> <!-- Цвет текста на кнопках -->
+    <color name="dividerColor_dark">#474747</color> <!-- Разделители -->
+
+
+
+
+</resources>
